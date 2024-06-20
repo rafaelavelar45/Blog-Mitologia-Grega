@@ -5,8 +5,7 @@
     padding: 0px;
 }
 
-html,
-body {
+html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: 100vw;
 }
@@ -26,7 +25,7 @@ section {
 
 }
 
-section>p {
+section > p {
     font-size: 1.5em;
     font-family: "Mate SC", serif;
 
@@ -68,26 +67,26 @@ section > h2{
 
 .normal{
     line-height: 3em;
-    padding: 30px;
+     padding: 50px;
+    margin-left: 50px;
 }
 
 ul {
     background-image: url(imagens/man-8679498_1280.png);
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     line-height: 2em;
     font-family: "Mate SC", serif;
+    list-style: inside;
 }
 
 ul > li{
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0.267);
-    color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     width: 93%;
     line-height: 2em;
