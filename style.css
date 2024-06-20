@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    font-size: 2em;
     background-color: black;
     color: white;
     text-align: center;
@@ -28,26 +29,49 @@ section {
 section>p {
     font-size: 1.5em;
     font-family: "Mate SC", serif;
-    
+
+}
+
+section > h2{
+    font-size: 2em;
 }
 
 
 
-#img{
+#img {
     background-image: url(imagens/ai-generated-8670318_1280.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;     
-    
+    background-repeat: no-repeat;
+
 }
-#img > p {
+
+#img > h2{
+    font-family: "Mate SC", serif;
+    font-size: 2em;
+    line-height: 2em;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
     background-color: rgba(0, 0, 0, 0.705);
+    padding: 50px;
+    margin-left: 50px;
+}
+#img > p {
+    font-size: 1.5em;
     line-height: 2em;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 50px;
+    margin-left: 50px;
 }
 
-ul{
+.normal{
+    line-height: 3em;
+    padding: 30px;
+}
+
+ul {
     background-image: url(imagens/man-8679498_1280.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -57,13 +81,24 @@ ul{
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     line-height: 2em;
-    font-family: "Mate SC", serif;;
+    font-family: "Mate SC", serif;
 }
 
-ul > p{
-    background-image: url(imagens/ai-generated-8464511_1280.jpg);
+ul > li{
+    font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0.267);
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    width: 93%;
+    line-height: 2em;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+ul > h3{
+    font-size: 2em;
+    padding: 50px;
+    margin-left: 50px;
+    font-size: 2em;
     line-height: 2em;
 }
