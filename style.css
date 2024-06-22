@@ -12,6 +12,7 @@ html, body{
 
 main{
     min-width: 320px;
+    overflow: hidden;
 
 }
 
@@ -93,7 +94,6 @@ ul > li{
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0.267);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
-    width: 93%;
     line-height: 2em;
     padding: 20px;
     margin-left: 50px;
