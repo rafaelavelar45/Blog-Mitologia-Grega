@@ -12,6 +12,7 @@ html, body{
 
 main{
     min-width: 320px;
+    max-width: 1920px;
     overflow: hidden;
 
 }
@@ -74,7 +75,7 @@ section > h2{
 .normal{
     line-height: 3em;
      padding: 50px;
-    margin-left: 50px;
+     margin-left: 50px;
 }
 
 ul {
@@ -105,4 +106,14 @@ ul > h3{
     margin-left: 50px;
     font-size: 2em;
     line-height: 2em;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    padding-top: 12px;
+    font-style: italic;
 }
